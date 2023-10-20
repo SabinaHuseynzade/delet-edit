@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/jH.css">
+</head>
+<body>
+    
+    <form>
+        <h1>register</h1>
+        <div>
+            <label for="name">Name:</label>
+            <input class="place"  type="text" id="name">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input class="place" type="text" id="password">
+        </div>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="place" type="text" id="phone" placeholder="000-000-0000">
+        </div>
+
+
+        <div>
+            <input type="checkbox" id="check"/> 
+            <label for="check">Privacy</label>
+        </div>
+        
+    <button class="btn" disabled>Submit</button>
+    <a href="./login.html">Already have account</a>
+    </form>
+
+    <script src="./assets/script/code.jquery.com_jquery-3.7.1.min (1).js"></script>
+    <script src="./assets/script/jH.js"></script>
+</body>
+</html>
